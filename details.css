@@ -1,0 +1,4 @@
+.source-preview{max-height:55vh;overflow:auto;background:var(--bg);border:1px solid var(--border);border-radius:7px;padding:12px;color:var(--text);font:10px/1.6 var(--mono);white-space:pre-wrap;overflow-wrap:anywhere}.impact-svg{overflow:auto}.impact-svg svg{width:100%;min-width:600px}.impact-svg-node{fill:var(--panel2);stroke:var(--border2)}.impact-svg-node.is-changed{stroke:var(--green);fill:var(--greenwash)}.impact-svg text{fill:var(--muted);font:9px var(--mono)}.theme-light .impact-svg-node{fill:#fff}
+
+.source-preview{font-size:12px}
+.impact-svg text{font-size:11px}

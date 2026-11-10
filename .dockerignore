@@ -1,0 +1,9 @@
+.git
+.env
+.asda.env
+.asda-k8s-secret.yaml
+.venv
+__pycache__
+*.py[cod]
+instance/*.db
+node_modules

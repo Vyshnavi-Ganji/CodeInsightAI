@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+instance/
+*.db
+.pytest_cache/
+.coverage
+htmlcov/
+node_modules/
+.asda.env
+.asda-k8s-secret.yaml

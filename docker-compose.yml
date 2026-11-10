@@ -1,0 +1,15 @@
+services:
+  asda:
+    build: .
+    image: saivyshnavi06/asda:local
+    ports:
+      - "5000:5000"
+    environment:
+      SECRET_KEY: ${SECRET_KEY:?Set SECRET_KEY in .env}
+      DATABASE_URL: sqlite:////data/asda.db
+      SESSION_COOKIE_SECURE: "false"
+    volumes:
+      - asda-data:/data
+    restart: unless-stopped
+volumes:
+  asda-data:

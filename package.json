@@ -1,0 +1,26 @@
+{
+  "name": "orbit-project-intelligence",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-hosted GitHub project intelligence with PostgreSQL and optional Neo4j",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@octokit/rest": "^21.1.1",
+    "bcryptjs": "^2.4.3",
+    "connect-pg-simple": "^10.0.0",
+    "cytoscape": "^3.34.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "neo4j-driver": "^5.28.1",
+    "openai": "^4.77.0",
+    "pg": "^8.13.1"
+  }
+}
